@@ -1,0 +1,15 @@
+{
+
+    "dependencies":["."],
+
+    "graphs":{
+
+      "prompt_agent":"./prompt_chainning.py:graph"
+
+    },
+
+    "env":"../.env"
+
+  
+
+  }
