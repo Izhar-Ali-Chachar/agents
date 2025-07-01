@@ -1,0 +1,15 @@
+{
+
+    "dependencies":["."],
+
+    "graphs":{
+
+      "genai_agent":"./agents.py:agent"
+
+    },
+
+    "env":"../.env"
+
+  
+
+  }
