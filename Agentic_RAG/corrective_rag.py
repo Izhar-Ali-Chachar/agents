@@ -39,11 +39,6 @@ vectorstore = FAISS.from_documents(doc_splits, embedding_model)
 
 # Set up retriever and LLM
 retriever = vectorstore.as_retriever()
-java_retriever_tool = create_retriever_tool(
-    retriever,
-    "retriever_vector_db_java",
-    "Useful for retrieving Java-related documentation based on a query."
-)
 
 llm = ChatGoogleGenerativeAI(model='gemini-2.5-flash')
 
